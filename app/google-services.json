@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "468917864402",
+    "project_id": "fiirebaseotp",
+    "storage_bucket": "fiirebaseotp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468917864402:android:5c643896c904ab8a646a0b",
+        "android_client_info": {
+          "package_name": "com.example.fiirebase_otp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASBGlovGrIyDWSLNHCOzQQgG4KsfYykGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
