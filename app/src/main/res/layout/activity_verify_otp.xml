@@ -96,11 +96,23 @@
             android:textColor="@color/black"
             />
     </LinearLayout>
-    <Button
-        android:id="@+id/verify_btn"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="Verify OTP"
-        android:textSize="22sp"/>
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/verify_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Verify OTP"
+            android:textSize="22sp"/>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+
 </LinearLayout>
 </ScrollView>

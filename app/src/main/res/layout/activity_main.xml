@@ -46,12 +46,24 @@
             />
 
     </LinearLayout>
-    <Button
-        android:id="@+id/send_OTP"
+
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="Send OTP"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:layout_marginTop="20dp"/>
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/send_OTP"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Send OTP"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+    </FrameLayout>
+
 </LinearLayout>

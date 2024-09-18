@@ -3,6 +3,7 @@ package com.example.fiirebase_otp;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,6 +25,21 @@ public class VerifyOTP extends AppCompatActivity {
 
 
         setOTPInput();
+
+        verifyOtpBinding.verifyBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if (){
+
+                }
+                return;
+                verifyOtpBinding.progressBar.setVisibility(View.VISIBLE);
+                verifyOtpBinding.verifyBtn.setVisibility(View.GONE);
+            }
+
+        });
+
 
     }
 
@@ -82,7 +98,7 @@ public class VerifyOTP extends AppCompatActivity {
 
             }
         });
-        verifyOtpBinding.
+
     }
 
 
